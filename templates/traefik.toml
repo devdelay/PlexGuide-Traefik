@@ -51,3 +51,14 @@ domain = "{{domain.stdout}}"
 watch = true
 exposedbydefault = false
 network = "plexguide"
+
+################################################################
+# File configuration backend
+################################################################
+# Enable file configuration backend
+# Optional
+[file]
+        filename = "servers.toml"
+
+# Enable watch file changes
+        watch = true
